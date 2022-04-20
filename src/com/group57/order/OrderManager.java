@@ -4,17 +4,16 @@ import com.group57.deliverly.DeliveryManager;
 import com.group57.menu.Menu;
 import com.group57.payment.PaymentManager;
 
-public class OrderManger {
-	Menu menu;
-	DeliveryManager deliverlyManager;
-	PaymentManager paymentManager;
-	Order[] orders;
+public class OrderManager {
+	private Menu menu;
+	private DeliveryManager deliveryManager;
+	private PaymentManager paymentManager;
+	private Order[] orders;
 
-	public OrderManger(Menu menu, DeliveryManager deliverlyManager, PaymentManager paymentManager) {
+	public OrderManger(Menu menu, DeliveryManager deliveryManager, PaymentManager paymentManager) {
 		this.menu = menu;
-		this.deliverlyManager = deliverlyManager;
+		this.deliveryManager = deliveryManager;
 		this.paymentManager = paymentManager;
-
 	}
 
 	public Menu getMenu() {

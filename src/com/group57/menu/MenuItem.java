@@ -1,7 +1,7 @@
 package com.group57.menu;
 
 public class MenuItem {
-	Ingredient[] ingredients;
+	private Ingredient[] ingredients;
 
 	public MenuItem(Ingredient[] ingredients) {
 		this.ingredients = ingredients;

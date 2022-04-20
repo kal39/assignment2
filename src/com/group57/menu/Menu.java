@@ -1,15 +1,18 @@
 package com.group57.menu;
 
 public class Menu {
-	MenuItem[] menuItems;
+	private MenuItem[] menuItems;
 
 	public Menu(MenuItem[] menuItems) {
 		this.menuItems = menuItems;
 	}
 
+	public MenuItem[] getItems() {
+	}
+
 	// example of MenuItem instances:
 	void instanceExample() {
 		// let salad, lasagna, chocolateCake, beer be MenuItems
-		menuItems = new MenuItem[]{salad, lasgana, chocolateCake, beer};
+		menuItems = new MenuItem[] {salad, lasgana, chocolateCake, beer};
 	}
 }
